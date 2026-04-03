@@ -1,0 +1,9 @@
+CONCEITOS TÉCNICOS APLICADOS:
+
+1. DOCKER: Garante que o banco de dados funcione da mesma forma em qualquer máquina (Portabilidade).
+2. ETL (Extract, Transform, Load):
+   - Extract: Leitura do arquivo IOT-temp.csv via Pandas.
+   - Transform: Conversão de tipos de dados (texto para numérico).
+   - Load: Gravação dos dados no PostgreSQL via SQLAlchemy.
+3. DATA VISUALIZATION: Uso do Streamlit para transformar dados brutos em informação útil (Gráficos).
+4. AMBIENTE VIRTUAL (VENV): Gerenciamento de dependências para evitar conflitos no Sistema Operacional.
